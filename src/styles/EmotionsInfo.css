@@ -1,0 +1,124 @@
+.EmotionsInfoTitle {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 14px;
+}
+
+.EmotionInfoGrid {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.EmotionInfoColumn {
+    width:calc( ( 100% - 40px ) / 3 );
+    margin-right: 20px;
+}
+
+.EmotionInfoColumn_second {
+    width:calc( ( 100% - 40px ) / 3 );
+    margin-right: 20px;
+}
+
+.icon_mask {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuMTA3IDYuNzk2YTEuNjA4IDEuNjA4IDAgMDAtMS41NzYgMS45MiAxLjYwNSAxLjYwNSAwIDAwMi4xOTEgMS4xNyAxLjYwNyAxLjYwNyAwIDAwLS42MTUtMy4wOXpNMTIuODkzIDYuNzk2YTEuNjA4IDEuNjA4IDAgMDAtMS41NzcgMS45MiAxLjYwNSAxLjYwNSAwIDAwMi4xOTIgMS4xNyAxLjYwNyAxLjYwNyAwIDAwLS42MTUtMy4wOXoiIGZpbGw9IiMyNjI2MjYiLz48cGF0aCBkPSJNMTkgMTAuMDA4YTguOTg2IDguOTg2IDAgMDAtNC40NzQtNy43ODhBOS4wMDYgOS4wMDYgMCAwMDIuMjMyIDUuNDVhOC45ODYgOC45ODYgMCAwMDMuMjA0IDEyLjI5MmwuMDEuMUExLjI4IDEuMjggMCAwMDYuNzI0IDE5aDYuNTVhMS4yODIgMS4yODIgMCAwMDEuMjgtMS4xNTZsLjAxLS4xMDJBOC45NzUgOC45NzUgMCAwMDE5IDEwLjAwOHpNMTAgMi4zYzEuOTc4IDAgMy44OC43NjEgNS4zMTIgMi4xMjRhNy42OTggNy42OTggMCAwMTIuMzgzIDUuMTk2bC0zLjM0NyAxLjY3Mkg1LjY1MkwyLjMwNSA5LjYyYTcuNjk4IDcuNjk4IDAgMDEyLjM4My01LjE5NkE3LjcxMSA3LjcxMSAwIDAxMTAgMi4zem0tNy42MzcgOC43ODVsMi41MzMgMS4yNjYuMzczIDMuNzMyYTcuNjg3IDcuNjg3IDAgMDEtMi45MDYtNC45OTd6bTEwLjkxMiA2LjYzaC02LjU1bC0uNTE1LTUuMTM4aDcuNThsLS41MTUgNS4xMzh6bTEuNDU2LTEuNjMybC4zNzMtMy43MzIgMi41MzMtMS4yNjZhNy42ODcgNy42ODcgMCAwMS0yLjkwNiA0Ljk5OHoiIGZpbGw9IiMyNjI2MjYiLz48L3N2Zz4=");
+}
+
+.icon_distant {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIuOCAzLjhjMC0uOTkuODEtMS44IDEuOC0xLjhzMS44LjgxIDEuOCAxLjgtLjgxIDEuOC0xLjggMS44LTEuOC0uODEtMS44LTEuOHptNC4zMDIgMy4yMjJhNi4yNTUgNi4yNTUgMCAwMC01LjAwNCAwQTEuODA5IDEuODA5IDAgMDAxIDguNjg3VjkuMmg3LjJ2LS41MTNhMS44MSAxLjgxIDAgMDAtMS4wOTgtMS42NjV6TTE1LjQgNS42Yy45OSAwIDEuOC0uODEgMS44LTEuOFMxNi4zOSAyIDE1LjQgMnMtMS44LjgxLTEuOCAxLjguODEgMS44IDEuOCAxLjh6bTIuNTAyIDEuNDIyYTYuMjU1IDYuMjU1IDAgMDAtNS4wMDQgMEExLjgwOSAxLjgwOSAwIDAwMTEuOCA4LjY4N1Y5LjJIMTl2LS41MTNhMS44MSAxLjgxIDAgMDAtMS4wOTgtMS42NjV6TTE5IDE0LjZMMTUuNCAxMXYyLjdINC42VjExTDEgMTQuNmwzLjYgMy42di0yLjdoMTAuOHYyLjdsMy42LTMuNnoiIGZpbGw9IiMyNjI2MjYiLz48L3N2Zz4=");
+}
+
+.icon_disinf {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuNTcxIDF2My44NTdoMS4yODZ2LjY4M0M2LjIyIDUuODIxIDUuMDggNy43NyA1LjA4IDcuNzdMNSA3LjkxVjE5aDlWNy45MWwtLjA4LS4xNHMtMS4xNC0xLjk0OS0zLjc3Ny0yLjIzdi0uNjgzaDEuMjg2VjFINy41N3ptNy43MTUgMGEuNjQ1LjY0NSAwIDAwLS42NDMuNjQzYzAgLjM1My4yOS42NDMuNjQzLjY0My4zNTMgMCAuNjQzLS4yOS42NDMtLjY0M0EuNjQ1LjY0NSAwIDAwMTUuMjg2IDF6TTguODU3IDIuMjg2aDEuMjg2VjMuNTdIOC44NTdWMi4yODZ6bTQuNSAwYS42NDUuNjQ1IDAgMDAtLjY0My42NDNjMCAuMzUzLjI5LjY0Mi42NDMuNjQyLjM1NCAwIC42NDMtLjI4OS42NDMtLjY0MmEuNjQ1LjY0NSAwIDAwLS42NDMtLjY0M3ptMS45MjkgMS4yODVhLjY0NS42NDUgMCAwMC0uNjQzLjY0M2MwIC4zNTQuMjkuNjQzLjY0My42NDMuMzUzIDAgLjY0My0uMjkuNjQzLS42NDNhLjY0NS42NDUgMCAwMC0uNjQzLS42NDN6TTkuNSA2Ljc4NmMxLjExNyAwIDEuODcuMzA4IDIuMzcuNjQzSDcuMTNjLjUtLjMzNSAxLjI1My0uNjQzIDIuMzctLjY0M3pNNi4yODYgOC43MTRoNi40Mjh2OUg2LjI4NnYtOXpNOS41IDExLjI4NmExLjkzOCAxLjkzOCAwIDAwLTEuOTI5IDEuOTI4YzAgMS4wNTguODcyIDEuOTI5IDEuOTI5IDEuOTI5YTEuOTM4IDEuOTM4IDAgMDAxLjkyOS0xLjkyOUExLjkzOCAxLjkzOCAwIDAwOS41IDExLjI4NnptMCAxLjI4NWMuMzYyIDAgLjY0My4yODIuNjQzLjY0M2EuNjM1LjYzNSAwIDAxLS42NDMuNjQzLjYzNS42MzUgMCAwMS0uNjQzLS42NDNjMC0uMzYyLjI4Mi0uNjQzLjY0My0uNjQzeiIgZmlsbD0iIzI2MjYyNiIvPjwvc3ZnPg==");
+}
+
+.covid_info_str {
+    display: flex;
+    flex-direction: row;
+}
+
+.EmotionInfoGrid,
+.EmotionsInfoTitle {
+    font-family: "Roboto";
+}
+
+.Emotion_header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.place_map {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.maps_y {
+    width: 100%;
+    height: 400px;
+
+} 
+
+.container_map {
+    border-radius: 8px;
+}
+
+.place_title {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.place {
+    margin-top: 44px;
+}
+
+.icon_taxi {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjIiIGhlaWdodD0iMTkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTguNTY2LjZsLS41MzIgMS42MjNINS43MjdjLTEuMDcxIDAtMi4wMjUuNjk3LTIuMzMzIDEuNzI0TDIuMjggNy42NzQuNzA2IDcuMTQuMiA4LjY2MmwxLjU5Ny41MzQtLjUwNyAxLjcyNGEuNzg5Ljc4OSAwIDAwLS4wMjYuMjI4djYuNDljMCAuNDQ3LjM2Ni44MTIuODEyLjgxMkg0LjUxbC4yNzktLjgxMkgxNy4yMWwuMjguODEyaDIuNDMzYS44MTQuODE0IDAgMDAuODEyLS44MTJ2LS42ODRhLjgzNS44MzUgMCAwMDAtLjEyN3YtNS42OGEuNzg2Ljc4NiAwIDAwLS4wMjYtLjIyN2wtLjUwNy0xLjcyNCAxLjU5Ny0uNTMyLS41MDctMS41MjItMS41NzIuNTMzLTEuMTE1LTMuNzI3YTIuNDMyIDIuNDMyIDAgMDAtMi4zMzMtMS43MjRoLTIuMzA3TDEzLjQzNC42SDguNTY2em0tMi44NCAzLjI0NWgxMC41NDdjLjM2MSAwIC42ODIuMjM4Ljc4Ny41ODRsMS4wMzkgMy40NzNIMy45bDEuMDQtMy40NzNhLjgyLjgyIDAgMDEuNzg2LS41ODR6TTMuNDIgOS41MjVoMTUuMTYybC41MzIgMS43NzR2NC43MTZIMi44ODd2LTQuNzE2bC41MzItMS43NzV6bTEuNDk2LjgxYTEuMjE3IDEuMjE3IDAgMTAwIDIuNDM1IDEuMjE3IDEuMjE3IDAgMDAwLTIuNDM0em0xMi4xNyAwYTEuMjE3IDEuMjE3IDAgMTAwIDIuNDM1IDEuMjE3IDEuMjE3IDAgMDAwLTIuNDM0em0tOS4zMyAyLjQzNEw2Ljc0IDE1LjIwNEg4LjQ5bC4zNTUtLjgxaDQuMzFsLjM1NS44MWgxLjc1bC0xLjAxNS0yLjQzM2gtNi40OXoiIGZpbGw9IiMyNjI2MjYiLz48L3N2Zz4=");
+}
+
+.taxi {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_place_taxi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clarifications {
+    max-width: 738px;
+    display: flex;
+    flex-direction: row;
+}
+
+.clarifications_column {
+    max-width:calc( 100% / 2 );
+    line-height: 2;
+}
+
+@media screen and (max-width: 500px) {
+    .Emotion_header {
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,106 @@
+.MainTopMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0053D9;
+    color: #ffffff !important;
+    height: 98px;
+    padding-left: 79px;
+    padding-right: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.9px;
+    line-height: 24px;
+    max-width: 1280px;
+
+}
+
+.MainTopMenuLeft {
+    display: flex;
+    flex-direction: row;
+}
+
+.Logo-Breezzor {
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.MainTopMenuItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.Heading {
+    margin-right: 28.7px;
+    cursor: pointer;
+}
+
+.MainTopMenuRight {
+    display: flex;
+    flex-direction: row;
+}
+
+.Buttons {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    padding: 7px 24px 7px 24px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: #ffffff 1px solid;
+    cursor:pointer;
+    overflow: hidden;
+}
+
+.top_menu_search img {
+    margin-right: 23px;
+    margin-top: 29px;
+}
+
+.MainTopMenuRight_mobile {
+    width: 24px;
+    height: 24px;
+    background-size: 24px 24px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcuOTUgMTEuODVhMS4zNSAxLjM1IDAgMTEtMi43IDAgMS4zNSAxLjM1IDAgMDEyLjcgMHptNS40IDBhMS4zNSAxLjM1IDAgMTEtMi43IDAgMS4zNSAxLjM1IDAgMDEyLjcgMHptNC4wNSAxLjM1YTEuMzUgMS4zNSAwIDEwMC0yLjcgMS4zNSAxLjM1IDAgMDAwIDIuN3oiIGZpbGw9IiMyNjI2MjYiLz48cGF0aCBkPSJNNC4xMjMgMjIuMzg0bC4wMjctLjAwNWMyLjQ3LS40OSAzLjk4LTEuMTM3IDQuNjgyLTEuNDkyIDEuMDMzLjI3NiAyLjA5OC40MTUgMy4xNjguNDEzIDUuOTY0IDAgMTAuOC00LjIzIDEwLjgtOS40NSAwLTUuMjItNC44MzYtOS40NS0xMC44LTkuNDVTMS4yIDYuNjMgMS4yIDExLjg1YzAgMi4zNzYgMS4wMDMgNC41NSAyLjY2IDYuMjFhMTQuMDg4IDE0LjA4OCAwIDAxLS43MDggMy4xM2wtLjAwNC4wMTRjLS4xLjI5LS4yMS41NzctLjMzLjg2LS4xMDYuMjUxLjEuNTMyLjM3LjQ4OS4zMTItLjA1MS42MjQtLjEwOC45MzUtLjE2OXptMS4wOC00LjE5NmExLjM1IDEuMzUgMCAwMC0uMzg4LTEuMDgxQzMuMzg1IDE1LjY3IDIuNTUgMTMuODMyIDIuNTUgMTEuODVjMC00LjMxIDQuMDU1LTguMSA5LjQ1LTguMXM5LjQ1IDMuNzkgOS40NSA4LjEtNC4wNTUgOC4xLTkuNDUgOC4xYy0uOTUyLjAwMS0xLjktLjEyMi0yLjgxOS0uMzY3YTEuMzUgMS4zNSAwIDAwLS45Ni4xYy0uNTIyLjI2NC0xLjY3NC43Ny0zLjU1NiAxLjIwNWExNC44MSAxNC44MSAwIDAwLjUzOC0yLjd6IiBmaWxsPSIjMjYyNjI2Ii8+PC9zdmc+");
+    z-index: 6;
+}
+
+.Mobile_menu {
+    position: fixed;
+    width: 100%;
+    margin: 0 8rem 0 -2rem;
+    background-color: #f0f0f0;
+    color: #262626;
+    font-size: 32px;
+    padding: 64px 10px 20px 10px;
+    z-index: 4;
+    top: 98px
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 1100px){
+    .MainTopMenu {
+        width: 105%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .MainTopMenu {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .MainTopMenu {
+        padding-left: 30px;
+        padding-right: 40px;
+    }
+}
+

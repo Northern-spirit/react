@@ -1,0 +1,104 @@
+.emotions_more {
+    margin-bottom: 64px;
+} 
+
+.header {
+    font-size: 32px;
+    font-family: 'Montserrat';
+}
+
+.text {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.panelButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 33px;
+}
+
+.buttonTab {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+.buttonTab.open {
+    border-radius: 18px;
+    background-color: #2E89FF;
+    color: #FFFFFF;
+}
+
+.card_panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    display: none;
+    max-width: 360px;
+}
+
+.open_tab {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .card_panel {
+        display: grid;
+        align-items: center;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 1fr 1fr;
+        display: none;
+    }
+    .open_tab {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card_panel {
+        display: grid;
+        align-items: center;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+        grid-template-columns: 1fr;
+        display: none;
+        margin-left: 3rem;
+    }
+    .open_tab {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .panelButton {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .card_panel {
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .card_panel {
+        margin-left: -1rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .panelButton {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

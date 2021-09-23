@@ -1,0 +1,74 @@
+.faceConfirmIcon {
+    width: 16.04px;
+    height: 20px;
+    background-size: 16.04px 20px;
+    background-image: url("data:image/svg+xml;base64, PHN2ZyB3aWR0aD0iMTciIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE2LjY3NiAyLjU2M0w5LjI5LjA0NkExLjA3IDEuMDcgMCAwMDguOTYyIDBjLS4xMiAwLS4yNC4wMTUtLjMyOS4wNDZMMS4yNDcgMi41NjNhLjUyMS41MjEgMCAwMC0uMzI4LjQ2VjEzLjUxYzAgLjE5Mi4xMjQuNDQ0LjI3NC41NjNsNy40OTMgNS44MzlhLjQ1LjQ1IDAgMDAuMjczLjA4OWMuMSAwIC4yLS4wMy4yNzQtLjA5bDcuNDkzLTUuODM4QS44MDguODA4IDAgMDAxNyAxMy41MVYzLjAyNGEuNTEyLjUxMiAwIDAwLS4zMjQtLjQ2MXptLTEuMjM3IDEwLjUzbC02LjQ3NyA1LjA0Ni02LjQ3OC01LjA0N1YzLjc5N0w4Ljk2MiAxLjU5bDYuNDc3IDIuMjA4djkuMjk1em0tOC44Mi00LjM3YS4zNS4zNSAwIDAwLS4yODMtLjE0NGgtMS4yYS4xNzUuMTc1IDAgMDAtLjE0MS4yNzdsMi43NDcgMy43ODJhLjM1LjM1IDAgMDAuNTY1IDBsNC42MjItNi4zNjNBLjE3NS4xNzUgMCAwMDEyLjc4NyA2aC0xLjJhLjM1My4zNTMgMCAwMC0uMjgyLjE0NGwtMy4yOCA0LjUxNy0xLjQwNy0xLjkzN3oiIGZpbGw9IiMyNjI2MjYiLz48L3N2Zz4=");
+    background-repeat: no-repeat;
+}
+
+.EmotionsAuthorTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.faceConfirm {
+    display: flex;
+    flex-direction: row;
+}
+
+.EmotionsAuthorName {
+    display: flex;
+    flex-direction: row;
+}
+
+.EmotionsAuthorAbout {
+    display: flex;
+    flex-direction: row;
+    max-width: 1069px;
+    justify-content: space-between;
+}
+
+.EmotionsAuthorName {
+    display: flex;
+    flex-direction: row;
+}
+
+.EmotionsAuthorNameAboutText {
+    display: flex;
+    flex-direction: column;
+    max-width: 835px;
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 2;
+    margin-left: 2rem;
+}
+ 
+.EmotionsAuthorNameAvatar {
+    margin-right: 12px;
+}
+
+.EmotionsAuthorNameAbout {
+    font-family: "Roboto";
+    padding-top: 10px;
+}
+
+.EmotionsAuthorNameAboutName {
+    font-size: 14px;
+    color: #262626;
+}
+
+.EmotionsAuthorNameAboutDate {
+    font-size: 12px;
+    color: #8C8C8C;
+}
+
+@media screen and (max-width: 510px) {
+    .EmotionsAuthorAbout {
+        flex-direction: column;
+    }
+    .EmotionsAuthorNameAboutText {
+        margin-top: 1rem;
+    }
+}
